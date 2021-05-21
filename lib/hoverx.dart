@@ -2,7 +2,7 @@ library hoverx;
 
 import 'package:flutter/material.dart';
 
-class HoverEffect extends StatefulWidget {
+class HoverX extends StatefulWidget {
   final String title;
   final TextStyle titleStyle;
   final ImageProvider image;
@@ -11,7 +11,7 @@ class HoverEffect extends StatefulWidget {
   final double width;
   final BorderRadiusGeometry borderRadius;
 
-  const HoverEffect({
+  const HoverX({
     Key key,
     @required this.title,
     this.titleStyle,
@@ -23,10 +23,10 @@ class HoverEffect extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _HoverEffectState createState() => _HoverEffectState();
+  _HoverXState createState() => _HoverXState();
 }
 
-class _HoverEffectState extends State<HoverEffect> {
+class _HoverXState extends State<HoverX> {
   bool isVisible = false;
 
   @override
