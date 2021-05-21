@@ -1,7 +1,7 @@
 name: hover_effect
 description: A Flutter Package helping us to provide the hover effect to our images.
 version: 0.0.1
-author: Brewnbeer
+# author: Brewnbeer
 homepage: https://github.com/Brewnbeer/hover_effect
 
 environment:
