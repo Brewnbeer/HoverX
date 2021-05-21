@@ -1,4 +1,4 @@
-library HoverX;
+library hoverx;
 
 import 'package:flutter/material.dart';
 
