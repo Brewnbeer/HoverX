@@ -1,11 +1,11 @@
 name: hoverx
 description: A Flutter Package helping us to provide the hover effect to our images.
-version: 0.0.1
-author: Brewnbeer
+version: 1.0.2
+# author: Brewnbeer
 homepage: https://github.com/Brewnbeer/HoverX
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
