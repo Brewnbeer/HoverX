@@ -4,19 +4,19 @@ import 'package:flutter/material.dart';
 
 class HoverX extends StatefulWidget {
   final String title;
-  final TextStyle titleStyle;
+  final TextStyle? titleStyle;
   final ImageProvider image;
   final Color hoverColor;
   final double height;
-  final double width;
-  final BorderRadiusGeometry borderRadius;
+  final double? width;
+  final BorderRadiusGeometry? borderRadius;
 
   const HoverX({
-    Key key,
-    @required this.title,
+    Key? key,
+    required this.title,
     this.titleStyle,
-    @required this.image,
-    @required this.hoverColor,
+    required this.image,
+    required this.hoverColor,
     this.height = 370,
     this.width,
     this.borderRadius,
